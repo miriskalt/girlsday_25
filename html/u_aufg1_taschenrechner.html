@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a class="active" href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+
+
+    <!-- Banner  -->
+    <section id="aufg1-home">
+        <h2>Programmiere einen Taschenrechner</h2>
+    </section>
+
+
+    <!-- Home  -->
+    <section id="aufgaben-container">
+        <div class="aufgaben blogpost">
+            <div class="post_page">
+                <img src="../images/onlinepython.webp" alt="online-python">
+                <h3>Programmiere deinen eigenen Taschenrechner</h3>
+                <p>
+                    Du kennst inzwischen die wichtigsten Prizipien von der Sprache mit Computern, sowie Variablen und
+                    Funktionen. Setzt das nun alles um und programmiere deinen ersten eigenen Taschenrechner. Nutze dazu
+                    die Programmierumgebung OnlinePython, damit du direkt jetzt loslegen kannst. <a class="link"
+                        href="u_aufg1_online.html">Hier</a> kannst du mehr
+                    über die Webseite erfahren und nachlesen, wie du die Seite nutzen kannst.
+                </p>
+                <h4>Schritt 1: Schreibe die Funktion <i>summieren(zahl1, zahl2)</i></h4>
+                <p>
+                    Ein Taschenrechner kann für beliebige Zahlen verschiedene Rechenoperationen durchführen. Um ein
+                    Taschenrechner zu programmieren musst du also Funktionen schreiben, welche die gewüschten
+                    Rechenoperationen auf die eingegeben Zahlen ausführt. Wie du Funktionen schreibst kannst du <a
+                        class="link" href="u_aufg1_funktionen.html">hier</a> nochmal nachlesen. Nutze den <i>print</i>
+                    Befehl um das Ergebnis auszugeben.
+                </p>
+                <p>
+                    Teste deinen Taschenrechner mit verschiedenen Zahlen. Kopiere dazu unterhalb der von dir
+                    programmierten Funktion die folgende Zeile Code und führe dein Skript aus. Wenn in dem
+                    Ausgabefeld 13 steht, bist du bereit für Schritt 2.
+                </p>
+                <pre><code class="language-python">
+                    zahl1 = 5
+                    zahl2 = 8
+                    summieren(zahl1, zahl2)
+                </code></pre>
+
+                <h4>Schritt 2: Schreibe weitere Funktionen</h4>
+                <p>
+                    Dein Taschenrechner kann nun die Summe zweier Zahlen (‘+’) bildet. Schreibe zusätzliche Funktionen
+                    für weitere Rechenoperationen, wobei du den Funktionsname, sowie den Operator zwischen den Zahlen
+                    veränderst. Programmiere für deinen Taschenrechner die folgenden 4 Funktionen:
+                </p>
+
+                <ul>
+                    <li>Eine Funktion, welche die Differenz der Zahlen (‘-’) bildet</li>
+                    <li>Eine Funktion, welche das Produkt der Zahlen (‘*’) bildet</li>
+                    <li>Eine Funktion, welche den Quotient der Zahlen (‘/’) bildet</li>
+                </ul>
+
+                <h4>Schritt 3: Testen</h4>
+                <p>
+                    Denke daran, die Funktionen mit den Eingabeparameter nach der Definition auch aufzurufen.
+                    Du kannst beliebig viele Funtionsaufrufe in dein Skipt schreiben, diese müssen aber immer unterhalb
+                    der Definition der Funktion stehen, da der Computer das Skript stur von oben nach unten durchläuft
+                    und dann nicht weiß, was er tun soll, wenn die Funktion noch nicht definiert ist.
+                </p>
+                <pre><code class="language-python">
+                    zahl1 = 5
+                    zahl2 = 8
+                    summieren(zahl1, zahl2)
+                    subtrahieren(zahl1, zahl2)
+                </code></pre>
+                <h4>Bonus-Aufgabe</h4>
+                <p>
+                    Wenn du deinen Taschenrechner bereits fertig programmiert hast und noch Zeit übrig ist, verändere
+                    den Code des Testens, sodass du die Zahlen nicht fix in das Skript schreibst, sondern, dass der
+                    Computer dich im Ausgabefeld nach den beiden Zahlen fragt und diese dann für die Berechnungen
+                    genutzt werden. Lese in der Aufgabenrunde 2 <a class="link" href="u_aufg2_eingaben.html">Eingaben in
+                        Python</a> um zu Erfahren, wie Aufforderungen zu Eingaben funktionieren.
+
+                </p>
+                <p><a class="link" href="https://www.online-python.com/1oTEvbXgrK">Hier</a> kannst du den Code für die
+                    Summenfunktion und Subtraktion als Beispiel ausprobieren. </p>
+                <p></p>
+                <p>Aufgabenrunde 1 geschafft!</p>
+                <p>
+                    
+                </p>
+                <a href="aufg2.html">Gelange hier zur Aufgabenrunde 2</a>
+            </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+</html>

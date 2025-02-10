@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a class="active" href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+    <!-- Banner  -->
+    <section id="aufg1-home">
+        <h2>Listen in Python</h2>
+    </section>
+
+    <!-- Home  -->
+
+    <section id="aufgaben-container">
+        <div class="aufgaben blogpost">
+            <div class="post_page">
+                <img src="../images/if.jpg" alt="Schienengleise">
+                <h3>Was sind Listen in Python?</h3>
+                <p>
+                    Wir haben bereits <a class="link" href="u_aufg1_variablen.html">Variablen</a> kennengelernt. Wenn
+                    wir aber nicht nut eine Zahl abspeichern wollen, sondern mehrer, weil diese Zusammengehören, dann
+                    nutzen wir Listen.
+                </p>
+                <p>
+                    Listen gelten in Python als eigener Datentyp (also eine neue Art Zettel) und werden mit eckigen
+                    Klammern geschrieben:
+                <ul>liste1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] ist eine Liste mit den Zahlen von 1 bis 10</ul>
+                <ul>liste2 = [“Brot”, “Käse”, “Salat”, “Tomate”, “Ketchup”] ist eine Liste mit Strings für Sandwich
+                    Zutaten</ul>
+                </p>
+                </p>
+
+                <img src="../images/listen_bsp.png" alt="listenPython" style="height:220px;width:780px">
+
+                <p>
+                    Eine Liste kann mehrere Zahlen, verschiedene Wörter oder auch eine Mischung von beidem speichern.
+                </p>
+
+                <p>
+                    In einer Liste kann man einzelne Elemente “ansprechen”, indem man sie mit ihrer Position in der
+                    Liste in eckigen Klammern aufruft. Im folgenden Beispiel wird in Zeile 5 das vierte Element der
+                    Liste angesprochen durch den Index 3.
+                </p>
+                <p>
+                    WICHTIG: Informatiker fangen immer bei 0 an zu zählen, das erste Element hat also die Position 0!
+                </p>
+
+                <img src="../images/liste_len.png" alt="len(liste2)" style="height:270px;width:780px">
+                <p>
+                    In dem Beispiel oben ist wird in der Zeile 3 die Länge, also Anzahl der Elemente der Liste mit dem
+                    Befehl <b>len(liste2)</b> abgefragt.
+                </p>
+                <p>
+                    Der Befehl <b>range</b> gibt euch die Möglichkeit schnell und einfach Zahlen-Listen zu erstellen,
+                    anstatt
+                    die Zahlen von 0 bis 100 hier aus zu schreiben, reicht dieser Befehl und man kann danach einzelne
+                    Zahlen mit der Eckigen-Klammer-Schreibweise ansprechen.
+                </p>
+                </p>
+
+                <img src="../images/range.png" alt="rangeBefehl" style="height:404px;width:600px">
+
+
+                <p> Jetzt, wo du Listen kennst, lerne als nächstes, wie du diese in For-Schleifen einsetzten kannst.</p>
+                <p></p>
+                <a href="u_aufg2_for.html">Weiter zu For-Schleifen</a>
+
+            </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+</html>

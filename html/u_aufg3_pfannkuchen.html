@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a class="active" href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+    <!-- Banner  -->
+    <section id="aufg1-home">
+        <h2>Rezept Skalieren</h2>
+    </section>
+
+    <!-- Home  -->
+
+    <section id="aufgaben-container">
+        <div class="aufgaben blogpost">
+            <div class="post_page">
+                <img src="../images/pfannkuchen.jpg" alt="Pfannkuchen">
+                <h3>Funktion zur Berechnung der Zutatenmengen</h3>
+
+                <p>
+                    In der Aufgabenrunde 1 hast du gelernt, was ein <a class="link"
+                        href="u_aufg1_rezept.html">Algorithmus</a> ist anhand von einem Pfannkuchenrezept. Inzwischen
+                    hast du bereits mehrere eigene Algorithmen geschrieben. Hier kommt noch ein nützlicher Algorithmus:
+                    Das Berechnen von Zutatenmengen!
+                </p>
+                <p>
+                    Bei einem Rezept wird die Menge für die Zutaten angebenen. Manchmal hat man aber besonders großen
+                    Hunger oder hat Gäste eingeladen, dann muss man auch entsprechend mehr Teig herstellen. Für die
+                    Berechnung schreiben wir nun einen Funktion.
+                </p>
+
+                <h4>Schritt 1: Die Rezept Funktion</h4>
+                <p>
+                    Schreibe eine Funktion, welche die Portionen als Eingabeparameter nimmt.
+                    Lege nun Variablen an, für alle Zutaten, welche für das Pfannkuchenbacken wichtig sind. Gebe dieser
+                    Variabel
+                    den Wert der Menge von Zutat pro Portion. Zum Beispiel:
+                </p>
+                <pre><code class="language-python">
+                    def pfannkuchen(portionen):
+                        eier = 1 # Einheit: Stück
+                        milch = 120 # Einheit: ml
+                        mehl = 100 # Einheit: Gramm
+                </code></pre>
+
+                <h4>Schritt 2: Trockene und Nasse Zutaten</h4>
+                <p>
+                    Lege zwei Listen an, welche jeweils die trockenen bzw. nassen Zutaten enthalten.
+                </p>
+
+                <h4>Schritt 3: Funktion zur Umrechnung</h4>
+                <p>
+                    Definiere oberhalb der ersten Funktion eine Funktion <i>umrechnen(zutat, portionen)</i>. Berechne
+                    innerhalb dieser Funktion die notwendige Menge der Zutat basierend auf der Anzahl an Portionen.
+                </p>
+
+                <h4>Schritt 4: Umrechnung</h4>
+                <p>
+                    In der Funktion <i>pfannkuchen()</i> iteriere mit zwei For-Schleifen jeweils über die trockenen und
+                    dann über die nassen Zutaten und berechne mit der Funktion <i>umrechnen(zutat, portionen)</i> die
+                    notwendige Menge der jeweiligen Zutat. Überschreibe den Mengenwert in Liste mit dem neuen Wert.
+                </p>
+
+                <h4>Schritt 5: Mengen ausgeben</h4>
+                <p>
+                    Gebe zum Schluss die notwendigen Menge der Zutaten aus. Nutze hierfür eine For-Schleife.
+                </p>
+                <p>
+                    <b>Wir hoffen du hattest viel Spaß bei dem Girls Day. Bleib neugierig!</b>
+                </p>
+
+            </div>
+
+
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+</html>

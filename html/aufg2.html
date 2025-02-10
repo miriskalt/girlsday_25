@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a class="active"href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a  href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a  href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+
+        </div>
+    </nav>
+
+
+    <!-- Home  -->
+    <section id="aufg1-home">
+        <h2>Lerne Schleifen und Verzweigungen kennen</h2>
+    </section>
+
+    <section id="aufgaben-container">
+        <div class="aufgaben">
+            <div class="post">
+                <img src="../images/if.jpg" alt="Verzweigung">
+                <h3>Wie funktionieren If-Verzweigungen?</h3>
+                <p>Lerne die Singalwörter <b>If</b>, <b>else</b> und <b>ifelse</b> kennen.</p>
+                <a href='u_aufg2_if.html'> Lerne mehr</a>
+            </div>
+            <div class="post">
+                <img src="../images/terminal.jpg" alt="Eingaben">
+                <h3>Eingaben in Python</h3>
+                <p>Wie du dich mit deinem Computer unterhalten kannst.</p>
+                <a href='u_aufg2_eingaben.html'> Lerne mehr</a>
+            </div>
+            <div class="post">
+                <img src="../images/chatbot.jpg" alt="Chatbot">
+                <h3>Dein Chatbot</h3>
+                <p>Schreibe einen ChatBot mit If-Verzweigungen</p>
+                <a href='u_aufg2_chatbot.html'> Lerne mehr</a>
+            </div>
+            <div class="post">
+                <img src="../images/listen.jpg" alt="Listen">
+                <h3>Was sind Listen in Python?</h3>
+                <p>Speicher viele Elemente auf einmal in einer Liste.</p>
+                <a href='u_aufg2_listen.html'> Lerne mehr</a>
+            </div>
+            <div class="post">
+                <img src="../images/for.jpg" alt="For">
+                <h3>Wie funktionieren For-Schleifen?</h3>
+                <p>Statt Copy-Paste eine Schleife nutzen</p>
+                <a href='u_aufg2_for.html'> Lerne mehr</a>
+            </div>
+            <div class="post">
+                <img src="../images/zufall.jpg" alt="Zufall">
+                <h3>Zufallsbibliothek in Python</h3>
+                <p>Bibliotheken: Geschriebenen Code von anderen nutzen</p>
+                <a href='u_aufg2_zufall.html'> Lerne mehr</a>
+            </div>
+            <div class="post">
+                <img src="../images/zufall.jpg" alt="zahlenraten">
+                <h3>Zahlen-Raten-Spiel</h3>
+                <p>Schreibe dein eigenes Zahlen-Raten Spiel</p>
+                <a href='u_aufg2_zahlenraten.html'> Lerne mehr</a>
+            </div>
+
+        </div>
+        <!--    
+        <div class="cate">
+            <h2>Themen</h2>
+            <hr>
+            <a href="if.html">If Verzweigungen in Python</a>
+            <hr>
+            <a href="listen.html">Listen</a>
+            <hr>
+            <a href="for.html">For Schleifen in Python</a>
+            <hr>
+            <a href="zufall.html">Zufall in Python</a>
+            <hr>
+            <a href="chatbot.html">ChatBot Aufgabe</a>
+            <hr>
+            <a href="aufg3.html">Weitere Aufgaben</a>
+            <hr>
+        </div>
+        </div>
+        -->
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+    
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>    
+            </div>
+            
+        </div>
+    </footer>
+
+
+    <script>
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+

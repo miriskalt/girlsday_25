@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a class="active" href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a  href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+
+        </div>
+    </nav>
+
+
+    <!-- Home  -->
+    <section id="aufg1-home">
+        <h2>Noch mehr Programmier Ideen </h2>
+    </section>
+
+    <section id="aufgaben-container">
+        <div class="aufgaben">
+            <div class="post">
+                <img src="../images/pfannkuchen.jpg" alt="Pfannkuchen">
+                <h3>Pfannkuchen Skalieren</h3>
+                <p>Schreibe eine Funktion, welche die Menge der Zutaten auf die Anzahl der Portionen hochrechnet.</p>
+                <a href='u_aufg3_pfannkuchen.html'>Lerne mehr</a>
+            </div>
+            <div class="post">
+                <img src="../images/chatbot.jpg" alt="ChatBot Symbol">
+                <h3>Chatbot Erweiterung</h3>
+                <p>Ideen, um deinen ChatBot zu erweitern</p>
+                <a href='u_aufg3_chatbot.html'>Lerne mehr</a>
+            </div>
+            <!--
+            <div class="post">
+                <img src="../images/tic-tac-toe.jpg" alt="tic-tac-toe">
+                <h3>Weiter Programmier Ideen</h3>
+                <p>Du hast Lust auf noch mehr Programmier Projekte?</p>
+                <a href='other.html'>Lerne mehr</a>
+            </div>
+            -->
+        </div>
+        <!--
+        <div class="cate">
+            <h2>Themen</h2>
+            <hr>
+            <a href="chatbot2.html">ChatBot Erweiterung</a>
+            <hr>            
+            <a href="other.html">Weitere Aufgaben Ideen</a>
+            <hr>
+        </div>
+        -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+    
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>    
+            </div>
+            
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+

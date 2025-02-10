@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a class="active" href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+    <!-- Banner  -->
+    <section id="aufg1-home">
+        <h2>Erweitere deinen ChatBot</h2>
+    </section>
+
+    <!-- Home  -->
+
+    <section id="aufgaben-container">
+        <div class="aufgaben blogpost">
+            <div class="post_page">
+                <img src="../images/chatbot.jpg" alt="chatbot">
+                <h3>Erweitere deinen Chatbot</h3>
+
+                <p>
+                    In der Aufgabenrunde 2 hast du einen <a class="link" href="u_aufg2_chatbot.html">ChatBot</a>
+                    programmiert. In dieser Aufgabenrunde haben wir mehr Informationen und können diesen erweitern.
+                    Schaue dir die Ideen unten an und erweitere nach belieben deinen ChatBot.
+                </p>
+
+
+                <h4>Idee 1: Mehr Eingaben in den ChatBot</h4>
+                <p>
+                    Erweitere deinen ChatBot, dass er nach mehr Eingaben fragt, wie zum Beispiel Wohnort, Wetter, Haustiere,
+                    Lieblingsfach. Erstelle anhand von If-Verzweigungen Antworten des ChatBots basierend.
+                </p>
+                <p>
+                    Oder definiere so das Alter deines ChatBots und lass dieses Wissen in das Gespräch mit einfliesen.
+                    Ist der ChatBot auch noch in der Schule, welches Jahr ist der ChatBot geboren oder wie viele Jahre
+                    älter/jünger ist dein Chatbot?
+                </p>
+
+                <h4>Idee 2: Integriere deinen Taschenrechner</h4>
+                <p>
+                    Nach dem Abfragen von Name, Alter, etc. baue ein, dass dein ChatBot dich fragt, ob du etwas
+                    ausgerechnet bekommen möchtest. Ist die Antwort darauf "Ja", frage die notwendigen Inputs die dein
+                    ChatBot benötigt um die Berechnung durchzuführen (Zahl1, Zahl2, Operator)
+                </p>
+
+                <h4>Idee 3: Der Charakter deines ChatBots</h4>
+                <p>
+                    Nutze die Zufallsbibliothekt sowie Listen um deinem ChatBot einen Charaketer zu erstellen. Gebe eine
+                    Liste von Elementen vor, wie zum Beispiel Gerichte, Farben, Tiere. Wähle mithilfe von
+                    <i>randint(0,len(gerichte))</i> ein zufälliges Gericht als das Lieblingsgericht deines ChatBots aus.
+                    Ist es das gleiche wie dein Lieblingsgericht?
+                </p>
+                <p>
+                    Oder definiere so das Alter deines ChatBots und lass dieses Wissen in das Gespräch mit einfliesen.
+                    Ist der ChatBot auch noch in der Schule, welches Jahr ist der ChatBot geboren oder wie viele Jahre
+                    älter/jünger ist dein Chatbot?
+                </p>
+                <p>
+                    <a class="link" href="https://www.online-python.com/k8vIKJyYU0">Hier<\a> kannst du ein Beispiel eines solchen ChatBots ausprobieren.
+                </p>
+
+                <p>
+                    <b>Wir hoffen du hattest viel Spaß bei dem Girls Day. Bleib neugierig!</b>
+                </p>
+            </div>
+
+
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+</html>

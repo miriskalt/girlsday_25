@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a class="active" href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+    <!-- Banner  -->
+    <section id="aufg1-home">
+        <h2>Zahlen-Raten Spiel</h2>
+    </section>
+
+    <!-- Home  -->
+
+    <section id="aufgaben-container">
+        <div class="aufgaben blogpost">
+            <div class="post_page">
+                <img src="../images/zufall.jpg" alt="Würfel">
+                <h3>Zahlen-Raten Spiel</h3>
+                <p>
+                    Mit dem Wissen über <a class="link" href="u_aufg2_zufall.html">Bibliotheken</a>, <a class="link"
+                        href="u_aufg2_if.html">Verzweigungen</a>, <a class="link" href="u_aufg2_for.html">Schleifen</a>
+                    und <a class="link" href="u_aufg2_eingaben.html">Konsoleneingaben</a> ist es an der Zeit,
+                    das alles in der Praxis zusammenzuführen. Das machen wir, indem wir ein Zahlen-Raten-Spiel
+                    programmieren!
+                </p>
+
+                <p>
+                    Das Spiel läuft so ab, der Computer überlegt sich eine beliebige Zahl zwischen 0 und 100. Und du
+                    hast 5 Versuche, die Zahl zu erraten. Jede Runde bittet der Computer um eine Eingabe. Ist es die
+                    richtige Zahl, gibt es ein "Glückwunsch" und die Runde ist zu Ende. Hast du allerdings falsch
+                    geraten, gibt der Computer dir aus, ob die geheime Zahl A. größer oder B. kleiner ist. Nach 5
+                    falschen
+                    Versuchen hat der Computer gewonnen und gibt die richtige Zahl dann aus.
+                </p>
+                <h4>Schritt 1: Importiere die Random Bibliothek</h4>
+                <p>
+                    Wie <a class="link" href="u_aufg2_zufall.html">hier</a> beschrieben, lade die Bibliothek
+                    <i>random</i> in dein Skript, damit sich der Computer eine zufällige Zahl ausdenken kann.
+                </p>
+
+                <h4>Schritt 2: Definiere die Funktion <i>zahlenRaten()</i></h4>
+                <p>
+                    Definiere eine Funktion, welche keine Eingabeparameter annimmt. Lege eine Variable mit dem Namen
+                    <i>geheimeZahl</i> an und weise ihr eine zufällige Zahl zwischen 0 und 100 zu mit dem Befehl
+                    <i>random.randint(0, 100)</i>
+                </p>
+
+                <h4>Schritt 3: Schreibe eine For-Schleife für 5 Runden</h4>
+                <p>
+                    Schreibe nun eine For-Schleife, welche 5 mal durchlaufen wird. Innerhalb der Schleife lege eine
+                    Variable gerateteZahl an, welche den Wert der Konsoleingabe dieser Runde hat.
+                    Prüfe ob die gerateteZahl an, der geheimenZahl entspricht, wenn ja, gebe ein "Glückwunsch" aus.
+                    Schreibe unter der For-Schleife eine Ausgabe, welche die geheime Zahl verkündet und das der Computer
+                    gewonnen hat.
+                </p>
+
+                <h4>Schritt 4: Mit einer If-Verzweigung die richtige Ausgabe</h4>
+                <p>
+                    Schreibe eine If-Verzweigung, welche je nachdem ob die geratete Zahl zu groß oder zu klein ist eine
+                    entsprechende print Ausgabe macht.
+                </p>
+
+                <h4>Schritt 5: Testen</h4>
+                <p>
+                    Teste dein Rate Spiel in mehreren Durchläufen um sicher zu stellen, dass die Ausgaben des Spiels
+                    korrekt sind.
+                </p>
+
+                <h4>Bonus-Aufgabe</h4>
+                <p>
+                    Schreibe dein <i>zahlenRaten</i> Funktion so um, dass sie als Eingabeparameter den minmalen sowie
+                    maximalen Wert der geheimen Zahl und die Anzahl an möglichen Runden nimmt. Füge die Parameter so in
+                    deinem Skript ein, dass das Spiel mit den Eingabeparameter gesteuert wird.
+                </p>
+                <p>
+                    <a class="link" href="https://www.online-python.com/q4WSj1D6ox">Hier</a> kannst du eine Musterlösung des Zahlen-Raten-Spiel ausprobieren und den Code mit den beiden Erweiterungen einsehen.
+                </p>
+
+                <p>
+                    Aufgabenrunde 2 geschafft. Mache mit der Aufgabenrunde 3 weiter!
+                </p>
+                <p>
+
+                </p>
+                <a href="aufg3.html">Aufgabenrunde 3</a>
+
+            </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+</html>

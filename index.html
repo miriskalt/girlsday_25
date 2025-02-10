@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <link href="themes/prism.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='index.html'><img src="images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a class="active" href="#">Wilkommen</a></li>
+                <li><a href="html/aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a href="html/aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="html/aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="html/vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+    <!-- Home  -->
+    <section id="home">
+        <h2> Wilkommen beim GirlsDay an der CAU</h2>
+        <p> Wir freuen uns, dass du uns bei uns zu besuch bist. </p>
+        <div class="btn">
+            <a class="blue" href="html/aufg1.html">Starte direkt ins Programmieren</a>
+            <a class="yellow" href="html/vorstellungen.html">Lerne unser Team kennen</a>
+        </div>
+    </section>
+
+    <!-- features -->
+    <section id="features">
+        <h1>Was wir heute lernen</h1>
+        <p>Auf den jeweiligen Seiten Aufgaberunde <a class="link" href="html/aufg1.html">1</a>, <a class="link"
+                href="html/aufg2.html">2</a>, <a class="link" href="html/aufg3.html">3</a> findest du die Theorie aus
+            den Vorträgen sowie die Anleitungen für praktische
+            Programmieraufgaben.</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-solid fa-receipt"></i>
+                <h3>Wie denken Computer?</h3>
+                <p>Anhand eines Kochrezeptes Algorithmen kennen lernen.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-solid fa-calculator"></i>
+                <h3>Grundprinzipien von Computersprachen</h3>
+                <p>Anhand von Python die Grundprinzipien vom Programmieren kennenlernen.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-solid fa-laptop-code"></i>
+                <h3>Deine ersten Programme selber schreiben</h3>
+                <p>Das Erlernte in der Praxis ausprobieren und Aufgaben selber programmieren.</p>
+            </div>
+        </div>
+
+        <!-- Profils -->
+        <section id="tutors">
+            <h1>Wer sind wir?</h1>
+            <p>Den GirlsDay über werden wir beide mit euch im Zoom sein und das Programm vorstellenn</p>
+
+            <div class="tutor-box">
+                <div class="profile">
+                    <img src="images/team/nanni.png" alt="Nanni">
+                    <h6>Nanni (Nadine Sarah) Schüler</h6>
+                    <p>Erfahre <a class="link" href="html/vorstellungen.html">hier</a> mehr über Nanni</p>
+                </div>
+
+                <div class="profile">
+                    <img src="images/team/nanni.png" alt="Carina">
+                    <h6>Carina Knappe</h6>
+                    <p>Erfahre <a class="link" href="html/vorstellungen.html">hier</a> mehr über Carina</p>
+                </div>
+
+
+                <div class="profile">
+                    <img src="images/team/nanni.png" alt="Mirjam">
+                    <h6>Miri (Mirjam Raffaela) Bayer</h6>
+                    <p>Erfahre <a class="link" href="html/vorstellungen.html">hier</a> mehr über Miri</p>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <script>
+            $('#menu-close').click(function () {
+                $('nav .navigation ul').removeClass('active');
+            });
+            $('#menu-btn').click(function () {
+                $('nav .navigation ul').addClass('active');
+            });
+        </script>
+</body>
+
+<footer>
+    <div class="footer-col">
+        <h3>Theorie Texte und Aufgabenanleitungen</h3>
+        <li><a href="html/aufg1.html">Aufgabenrunde 1</a></li>
+        <li><a href="html/aufg2.html">Aufgabenrunde 2</a></li>
+        <li><a href="html/aufg3.html">Aufgabenrunde 3</a></li>
+
+    </div>
+    <div class="footer-col">
+        <h3>Andere Links</h3>
+        <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+        <li><a href="html/vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+        <li><a href="html/impressum.html">Impressum</a></li>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+        <div class="pro-links">
+            <i class="fas fa-link"></i>
+        </div>
+
+    </div>
+</footer>
+
+</html>

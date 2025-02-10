@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a class="active" href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+    <!-- Banner  -->
+    <section id="aufg1-home">
+        <h2>Zufalls Bibliothek in Python</h2>
+    </section>
+
+    <!-- Home  -->
+
+    <section id="aufgaben-container">
+        <div class="aufgaben blogpost">
+            <div class="post_page">
+                <img src="../images/zufall.jpg" alt="würfel">
+                <h3>Gibt es Zufall in Python?</h3>
+                <p>
+                    Wir haben bereits gelernt, dass Computer sich sehr streng an Regeln halten und nicht selber denken
+                    können. Und genau aus dem Grund ist es sehr schwer von dem Computer zu verlangen, dass er sich z.B.
+                    eine zufällige Zahl ausdenkt. Damit er eine zumindest für uns zufällige Zahl aussucht, benötigt es
+                    mathematisch sehr komplexe Algorithmen. Zu unserem Glück, haben sehr schlaue Frauen und Männer schon
+                    solchen Code geschrieben, welchen wir einfach nutzen können. Dazu laden wir uns die fertig
+                    geschrieben Funktionen in unser Skript und können sie einfach nutzen. Das ist einer der vielen
+                    Vorteile an der Programmiersprache Python: Es gibt eine große Gemeinschaft, welche Code gegenseitig
+                    zur Verfügung stellt.
+                </p>
+
+                <p>
+                    Mittels Bibliotheken, (engl. Libraries) können fertige Funktionen in unser eigenen Skript geladen
+                    werden. Der Befehl dazu lautet: <b>import LibrarieName</b>. Für das Zahlen Raten Spiel laden wir uns
+                    die Bibliothek für Zufall in das Skipt. Sie heißt <b>random</b>, was das englische Wort für Zufall
+                    ist.
+                </p>
+
+                <p>
+                    Ist diese Bibliothek importiert, kann mit dem Befehl <i>random.randint(minWert, maxWert)</i> eine zufällige Zahl erhalten werden.
+                </p>
+
+                <img src="../images/random_bsp.png" alt="random" style="height:404px;width:650px">
+
+                <p>
+                <p>
+                    Jetzt, wo du Bibliotheken und Zufall in Python kennst, kannst du mit <b>For</b>-Schleifen selber ein
+                    Zahlen Raten Spiel programmieren.
+                </p>
+                <p>
+
+                </p>
+                <a href="u_aufg2_zahlenraten.html">Ran an die Praxis</a>
+
+            </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+    
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>    
+            </div>
+            
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+</html>

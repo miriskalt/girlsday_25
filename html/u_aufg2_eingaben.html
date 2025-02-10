@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a class="active" href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+    <!-- Banner  -->
+    <section id="aufg1-home">
+        <h2>Nutzereingaben in Python</h2>
+    </section>
+
+    <!-- Home  -->
+
+    <section id="aufgaben-container">
+        <div class="aufgaben blogpost">
+            <div class="post_page">
+                <img src="../images/terminal.jpg" alt="Terminal">
+
+                <h3>Konsoleninput</h3>
+                <p>
+                    Damit Du direkt mit deinem Programm sprechen kannst, gibt es die Möglichkeit innerhalb des Skriptes
+                    nach Eingaben zu fragen. Das Signalwort in Python lautet dafür <b>input()</b>. Innerhalb der direkt
+                    folgenden runden Klammern kann ein String eingegeben werden, welcher in der Konsole erscheint, damit
+                    die Benutzerin weiß, was sie eingeben soll. Wie das funktioniert siehst du hier:
+                </p>
+
+
+                <img src="../images/input_bsp.png" style="width:567px;height:274px" alt="input('Text')">
+
+                <p>
+                    Bei Konsoleneingaben gibt es zwei Dinge zu beachten:
+                <ul>Der Konsoleninput in einem Skript muss einer Variablen zugewiesen werden, wenn du ihn innerhalb des
+                    Skriptes verwenden möchtest. Setzte die Aufforderung zur Eingabe dabei auf die rechte Seite der
+                    Variablendeklination.</ul>
+                <ul>Der Input wird immer als kompletter String abgespeichert, wenn du also eine Zahl erwartest und auch
+                    als solche weiterverarbeiten möchtest, musst du den Input in ein <i>int</i> umformern.</ul>
+                    Wenn du diese beiden Hinweise beachtest sieht das wie folgt aus:
+                </p>
+                <img src="../images/input_alter.png" style="width:760px;height:500px" alt="if(alter>16):Bier else: kein Bier">
+
+                <p>
+                    Mit If-Verzweigungen und Eingaben im Skript kannst du loslegen und deinen eigenen ChatBot schreiben.
+                </p>
+                <p>
+                    
+                </p>
+
+                <a href="u_aufg2_chatbot.html">Schreibe deinen eigenen ChatBot</a>
+
+            </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+    
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>    
+            </div>
+            
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+</html>

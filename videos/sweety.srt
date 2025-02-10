@@ -1,0 +1,175 @@
+1
+00:00:00,000 --> 00:00:03,000
+
+
+2
+00:00:03,000 --> 00:00:10,000
+Hallo Sweety. Schön, dass du da bist für dieses Interview.
+
+3
+00:00:10,000 --> 00:00:15,000
+Erste Fragen: Wie heißt du, wie alt bist du, wo kommst du her und was ist deine Position bei uns am Institut?
+
+4
+00:00:15,000 --> 00:00:18,000
+Hallo Zusammen
+
+5
+00:00:18,000 --> 00:00:23,000
+Ich bin Sweety, ich bin 29 Jahre alt und ich komme aus Indien.
+
+6
+00:00:24,000 --> 00:00:28,000
+Ich bin PhD Studentin an dem Institut für Informatik an der CAU Kiel
+
+7
+00:00:30,000 --> 00:00:35,000
+Was machst du an deiner Position, was ist dein aktuelles Forschungsthema?
+
+8
+00:00:36,000 --> 00:00:42,000
+Ich arbeite an einem sehr interessanten Projekt über den Klimawandel.
+
+9
+00:00:42,000 --> 00:00:45,000
+Ich arbeite mit Meeresdaten.
+
+10
+00:00:46,000 --> 00:00:57,000
+Das Meerwasser wird sauer. Und das Ecosystem der Ozeane wird stark davon beeinflusst, wenn das Meer viel CO2 aus der Atmosphäre aufnimmt.
+
+11
+00:00:57,000 --> 00:01:01,000
+Deswegen entwickle ich Algorithmen, welche demonstrieren, dass...
+
+12
+00:01:01,000 --> 00:01:10,000
+..., dass es unterschiedliche Regionen auf der Wasseroberfläche gibt, welche stark beeinflusst werden von der Menge des CO2 in der Luft.
+
+13
+00:01:12,000 --> 00:01:19,000
+Du beschäftigst dich also mit sehr relevanten Entwicklungen bezüglich des Klimawandels, welcher unsere Erde verändert.
+
+14
+00:01:22,000 --> 00:01:27,000
+Wie bist du in die Informatik gekommen? Wo und was hast du studiert, was hast du erlebt, was hat dich beeinflusst?
+
+15
+00:01:28,000 --> 00:01:34,000
+Also, ich habe nicht Computer Science studiert, weil ich ein Computer-Nerd war.
+
+16
+00:01:35,000 --> 00:01:39,000
+Ich habe Informatik studiert, weil ich zuhause keinen eigenen Computer hatte, aber gerne einen Computer haben wollte.
+
+17
+00:01:40,000 --> 00:01:45,000
+Als ich mit dem Studium angefangen habe, habe ich schnell festgestellt, dass es mir viel Spaß macht. 
+
+18
+00:01:45,000 --> 00:01:48,000
+Dann habe ich meinen Bachelor in Computer Science in Indien gemacht.
+
+19
+00:01:48,000 --> 00:01:54,000
+Anschließend habe ich einige Jahre als Software Entwicklerin in einem Unternehmen gearbeitet.
+
+20
+00:01:55,000 --> 00:01:59,000
+Ich habe einige sehr tolle Leute kennen gelernt und sehr viel gelernt.
+
+21
+00:01:59,000 --> 00:02:01,000
+Dann bin ich nach Deutschland umgezogen um noch mehr zu lernen...
+
+22
+00:02:01,000 --> 00:02:07,000
+und habe meinen Master in Informatik an der TU in München absolviert.
+
+23
+00:02:07,000 --> 00:02:13,000
+Wärend meines Masters habe ich an vielen verschiedenen Projekten mitgearbeitet...
+
+24
+00:02:13,000 --> 00:02:17,000
+... für die ich sehr verschiedene Algorithmen in ganz unterschiedlichen Themengebieten programmiert habe.
+
+25
+00:02:17,000 --> 00:02:22,000
+Es waren Projekte aus der Physik, Biology und sogar Politik dabei.
+
+26
+00:02:22,000 --> 00:02:30,000
+Es hat mich sehr gefreut, dass ich mein Computer Science Wissen in so vielen verschieden Themen einbrigen konnte,...
+
+27
+00:02:30,000 --> 00:02:36,000
+und helfen kann, so viele verschiedene Probleme zu lösen. Das war aufregend, weshalb ich weiter lernen wollte.
+
+28
+00:02:36,000 --> 00:02:40,000
+Da es mir so viel Spaß gemacht hat, habe ich beschloss meinen Dokotor in Informatik zu machen.
+
+29
+00:02:42,000 --> 00:02:50,000
+Letzte Frage: Was würdest du deinem jüngeren Ich gerne sagen, wenn du wieder in der 8.Klasse wärst?
+
+30
+00:02:52,000 --> 00:02:53,000
+Das ist eine gute Frage :)
+
+31
+00:02:54,000 --> 00:03:02,000
+Ich habe mein Interesse für die Forschung entdeckt, weil mein Großvater und Vater haben mich früher öfters ins Planitarium mitgenommen.
+
+32
+00:03:02,000 --> 00:03:05,000
+Oder auch in das Wissenschaftsmuseum in unserer Stadt.
+
+33
+00:03:05,000 --> 00:03:06,500
+Das haben wir sehr oft gemacht.
+
+34
+00:03:06,500 --> 00:03:14,000
+Ich wusste, dass ich eine Wissenschaftlerin werden möchte, seid ich in der 6ten Klasse war.
+
+35
+00:03:14,000 --> 00:03:22,000
+Aber ich war mir nicht sicher, in welchem Feld von Wissenschaft ich gerne arbeiten wollte. 
+
+36
+00:03:25,000 --> 00:03:30,000
+Also wenn ich meinem jüngeren Ich etwas mitgeben könnte, dann: Seie neugierig,..
+
+37
+00:03:30,000 --> 00:03:35,000
+Stelle Fragen und halte die Augen offen und finde die Wissenschaft direkt in deinem Umfeld.
+
+38
+00:03:35,000 --> 00:03:39,000
+Das können über die Sterne am Nachthimmel sein die du siehst; Oder über die Sterne, die du nicht sehen kannst.
+
+39
+00:03:41,000 --> 00:03:48,000
+Vielleicht interessiert dich, wie Bienen ihren Honig herstellen oder wie Musik in einem Klavier entsteht...
+
+40
+00:03:49,000 --> 00:03:56,000
+Also finde Bücher, oder nutze das Internet um deine Antworten zu finden. Halte die Augen offen für wissenschaftliche Artikel in deiner Lokalzeitung,...
+
+41
+00:03:58,000 --> 00:04:03,000
+Denn: Man kann keine falschen Fragen stellen in der Wissenschaft. Das ist das Wunderbare daran. 
+
+42
+00:04:06,000 --> 00:04:10,000
+Das ist eine sehr schöne Aufforderung. Vielen Dank dafür und danke für deine Zeit.
+
+43
+00:04:10,000 --> 00:04:12,000
+Auch euch danke, dass für eure Zeit, Tschüss.
+
+44
+00:04:13,000 --> 00:04:16,000
+Bye!

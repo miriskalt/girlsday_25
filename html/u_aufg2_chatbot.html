@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a class="active" href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+    <!-- Banner  -->
+    <section id="aufg1-home">
+        <h2>Programmiere einen ChatBot</h2>
+    </section>
+
+    <!-- Home  -->
+
+    <section id="aufgaben-container">
+        <div class="aufgaben blogpost">
+            <div class="post_page">
+                <img src="../images/for.jpg" alt="Kreisverkehr">
+                <h3>Programmiere deinen eigenen Chatbot</h3>
+
+                <p>
+                    Nun kennst du <a class="link" href="u_aufg1_variablen.html">Variablen</a>, <a class="link"
+                        href="u_aufg2_if.html">Verzweigungen</a> sowie <a class="link"
+                        href="u_aufg2_eingaben.html">Eingaben</a>. Damit kannst du deinen ersten eigenen ChatBot
+                    programmieren.
+                    Nutze dazu wieder die Programmierumgebung <a class="link"
+                        href="u_aufg1_online.html">OnlinePython</a>, damit du direkt jetzt loslegen kannst.
+                </p>
+
+
+                <h4>Schritt 1: Schreibe die Funktion <i>chatbot()</i></h4>
+                <p>
+                    Definiere die Funktion chatBot und lege Variabeln für Name, Alter und Hobby an. Weise den Variablen
+                    jeweils den Wert der Konsoleneingabe zu. Denk daran bei Zahlen, den Eingabewert mit int() in einen
+                    Integer zu verwandeln.
+                </p>
+                <pre><code class="language-python">
+                    def chatbot():
+                        name = # dein Code hier
+                        alter = # dein Code hier
+                        hobby = # dein Code hier
+                        print(f"Hallo {name}, schön das du da bist.")
+                </code></pre>
+
+                <h4>Schritt 2: Schreibe ein If-Abfrage</h4>
+                <p>
+                    Schreibe nun eine If-Abfrage, in welcher dein ChatBot bei einem Alter von über 16 Jahren ein "Gute Fahrt mit deinem Roller."
+                    ausgibt, ansonsten ein "Sorry, du darfst noch kein Roller fahren. Fahrradfahren ist auch cool.".
+                </p>
+                <h4>Schritt 3: Schmücke deinen ChatBot aus</h4>
+                <p>
+                    Füge noch weitere beliebigen If-Abzweigungen ein, um ein interessantes Gespräch zu erhalten. Mache
+                    dir dabei die formatierten Print-Befehle zu nutzen, um automatisierte Antworten zu generieren. Lese <a class="link" href="u_aufg1_variablen.html">hier</a> ganz unten mehr über formatted strings. 
+                </p>
+                <h4>Bonus-Aufgabe</h4>
+                <p>
+                    Programmiere in deinen Chatbot, dass er das Geburtsjahr ausgibt, basierend auf dem eingebenen Alter.
+                </p>
+                <p>
+                    
+                </p>
+                <a href="u_aufg2_listen.html">Weiter geht's mit Listen </a>
+
+            </div>
+
+
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+</html>

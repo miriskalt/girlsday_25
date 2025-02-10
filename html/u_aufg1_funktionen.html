@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a class="active" href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+
+    <!-- Banner  -->
+    <section id="aufg1-home">
+        <h2>Funktionen in Python</h2>
+    </section>
+
+    <!-- Home  -->
+    <section id="aufgaben-container">
+        <div class="aufgaben blogpost">
+            <div class="post_page">
+                <img src="../images/onlinepython.webp" alt="online-python">
+                <h3>Was sind Funktionen?</h3>
+                <p>
+                    In Python werden Funktionen benutzt, um häufig genutzte Programmstücke zusammen zu fassen, sie sind
+                    also eigentlich nur wieder “Mini-Programme”.
+                </p>
+
+                <ul>
+                    <li>Eine Funktion beginnt immer mit dem Signalwort <b>def</b></li>
+                    <li>Dann kommt der Name der Funktion, um sie später wieder ansprechen zu können</li>
+                    <li>In die zwei runden Klammern direkt hinter dem Name kommen dann die Parameter, welche in der
+                        Funktion
+                        verarbeitet werden, die Input-Parameter</li>
+                    <li>Die erste Zeile wird beendet mit einem Doppelpunkt (:)</li>
+                    <li>Es folgen die Verarbeitungsschritte der Funktion. Dabei werden alle Befehle, welche zu
+                        der Funktion gehören mit 4 Leerzeichen eingerückt. Dabei ist Python sehr genau, dass es auch ja
+                        vier
+                        Leerzeichen sind.</li>
+                    <li>Zuletzt soll die Funktion das Ergebnis (den Output) “zurück”geben, dabei steht der gewünschte
+                        Output
+                        hinter dem Signalwort <b>return</b></li>
+                    <li>Eine Funktion muss keinen Output zurückgeben. Sie kann auch ohne enden, oder wie es heute öfters
+                        der Fall sein wird, das Ergebnis mit einem <i>print</i>-Befehl ausgeben</li>
+                </ul>
+
+                <p>
+                    Hier ist ein Beispiel einer Funktion, welche den Namen <i>plus_rechnen</i> hat und zwei Zahlen als
+                    Input nimmt: <i>zahl1</i> und <i>zahl2</i>.
+                    Innerhalb der Funktion wird das Ergebnis der Addition der zwei Zahlen berechnet und anschließend mit
+                    einem <i>Print</i>-Befehl ausgegeben.
+                </p>
+
+                <img src="../images/plus_rechnen1.png" style="width:750px;height:400px">
+
+                <p>
+                    Beim Schreiben von Funktionen auf Online-Python gibt es einige hilfreiche Features, denn wenn du das
+                    Singalwort richtig schreibst, Klammern nicht vergisst und die erste Zeile mit einem Doppelpunkt
+                    beendest, werden die nächsten Zeilen automatisch korrekt eingerückt. Das erstpaar viel Zeit und
+                    Nerven, da du somit immer direkt weist, du hast das Anlegen der Funktion richtig gemacht. Das
+                    erkennst du auch daran, dass Signalwörter (<i>def</i>, <i>print</i>, <i>return</i>) immer in
+                    besonderen Farben erscheinen, ohne dass du das
+                    ausgewählt hast.
+                </p>
+                <p>
+
+                </p>
+                <a href="u_aufg1_taschenrechner.html"> Programmiere eine Taschenrechner</a>
+            </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+</html>

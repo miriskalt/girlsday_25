@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a class="active" href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+    <!-- Banner  -->
+    <section id="aufg1-home">
+        <h2>If-Verzweigungen in Python</h2>
+    </section>
+
+    <!-- Home  -->
+
+    <section id="aufgaben-container">
+        <div class="aufgaben blogpost">
+            <div class="post_page">
+                <img src="../images/if.jpg" alt="Schienengleise" style="width:700px;height:300px">
+                <h3>Was sind If-Verzweigungen in Python?</h3>
+                <p>If-Verzweigen werden dann genutzt, wenn der Computer eine Entscheidung für eine bestimmte Bedingung
+                    treffen soll. Da Computer nur Befehle ausführen können müssen wir dem Computer sagen, wie er sich
+                    entscheiden soll. Und auch, was er für im Fall der verschiedenen Entscheidungen machen soll.
+                </p>
+                <p>In Python wird das mit einer sogenannten If-Verzweigung geschrieben. Dafür gibt es das Signalwort
+                    <b>if</b>, dieses wird gefolgt von einer Bedingung, die der Computer prüfen kann. Wenn die Bedingung
+                    erfüllt ist, führt er die Befehle hinter dem Doppelpunkt aus. Die Befehle müssen, wie bei Funktionen
+                    um 4 Leerzeichen eingerückt sein. Wenn die Bedingung nicht erfüllt ist, dann werden die Befehle
+                    hinter dem Signalwort <b>else</b> ausgeführt. Hier siehst du ein Beispiel:
+                </p>
+                <img src="../images/if_bsp.png" style="width:760px;height:500px" alt="if(alter>16):Bier else: kein Bier">
+                <h4>Wie können mehrere Fälle abgefragt werden?</h4>
+                <p>
+                    Das ist eine gute Frage. Denn in Python gibt es neben den Signalwörtern <b>if</b> und <b>else</b>
+                    noch das Signalwort <b>ifelse</b>. Das kann genutzt werden um nach der If-Bedingung noch weitere
+                    Entscheidungsmöglichkeiten zu geben. Dabei wird wieder die Bedingung von dem Computer geprüft und
+                    nur, wenn die Bedingung erfüllt ist, werden die nachfolgenden Befehle ausgeführt.
+                </p>
+                <p>
+                    Denk daran, ein Computer liest ein Skript strickt von oben nach unten. Er prüft die Bedingungen nach
+                    einander, bis er eine gefunden hat, die erfüllt ist. Dannach überspringt der Computer alle weiteren
+                    Optionen und arbeitet das Skript nach der Verzweigung weiter ab.
+                </p>
+                <p>
+                    Mit den Verzweigungen kannst du zum Beispiel einen ersten ChatBot selber programmieren. Wenn du
+                    bereits weißt, wie du nach Eingaben innerhalb des Programms fragt, gehe gleich zur Praxis, ansonsten
+                    lese dir die Seite zu Eingaben in Python davor durch.
+                </p>
+                <p>
+
+                </p>
+                <a href="u_aufg2_eingaben.html">Eingabgen in Python</a>
+                <a href="u_aufg2_chatbot.html">Verzweigungen in der Praxis</a>
+
+            </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--  Navigation -->
+    <nav>
+        <a href='../index.html'><img src="../images/girls_day_logo.jpg" alt="girls_day_logo" /></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a class="active" href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+    <!-- Banner  -->
+    <section id="aufg1-home">
+        <h2>For Schleifen in Python</h2>
+    </section>
+
+    <!-- Home  -->
+
+    <section id="aufgaben-container">
+        <div class="aufgaben blogpost">
+            <div class="post_page">
+                <img src="../images/for.jpg" alt="Kreisverkehr">
+                <h3>Was sind For-Schleifen in Python?</h3>
+                <p>
+                    Oft wollen wir, dass der Computer eine Aufgabe mehrfach ausführt. Für das Pfannkuchenbacken zum
+                    Beispiel, müssten wir eine Menge der Schritte doppelt schreiben, wenn wir am Ende
+                    10 Pfannkuchen haben wollen. Damit wir die Befehle nicht mehrfach schreiben müssen, gibt es
+                    <b>FOR</b>-Schleifen in Python. Wenn ein Computer dieses Signalwort sieht, weiß er, dass die Befehle
+                    innerhalb der Schleife mehrfach ausgeführt werden sollen.
+                </p>
+
+                <p>
+                    Eine Schleife führt für eine bestimmte Anzahl Wiederholungen (for x) immer wieder
+                    dieselben Befehle aus. Die Anzahl an Durchläufen wird anhand einer Listen bestimmt, für jedes
+                    Element der Liste wird dann ein Durchlauf ausgeführt. Deshalb lautet der Sinalbefehl für eine
+                    <b>for</b>-Schleife auch: <b>for</b> in <b>Liste</b>.
+                </p>
+
+
+                <img src="../images/for.png" alt="forSchleife" style="height:404px;width:650px">
+
+
+
+                <p>
+                    In dem oben gezeigten Beispiel wird für jede Zutat in der zuvor definierten Liste die Zutat
+                    ausgegeben wird.
+                    Der Computer führt den Befehl in der Schleife solange aus, bis das Ende der Liste erreicht ist.
+                </p>
+
+                <p>
+                    Wenn die For-Schleife genutzt wird, um bestimmte Befehle mehrfach auszuführen, aber der Inhalt der
+                    Liste keine Bedeutung hat, bietet es sich an, eine temporäre Liste mit dem <b>range</b>-Befehl, der
+                    <a class="link" href="u_aufg2_listen.html">hier</a> schon beschrieben wurde,
+                    anzulegen. Der Befehl hierfür sieht dann wie folgt aus, dabei wird der Buchstabe <i>i</i> als
+                    Platzhalter verwendet, das hat sich so eingebürgert in der Informatik.
+
+                </p>
+
+                <img src="../images/range.png" alt="rangeBefehl" style="height:404px;width:600px">
+
+                <p>
+                    Wenn du Bibliotheken und Zufall in Python kennst, kannst du mit <b>For</b>-Schleifen selber ein
+                    Zahlen Raten Spiel programmieren.
+                </p>
+                <p>
+
+                </p>
+                
+                <a href="u_aufg2_zufall.html">Weiter zu Zufall in Python</a>
+
+            </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Theorie Texte und Aufgabenanleitungen</h3>
+            <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+            <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+            <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+    
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li><a href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+            <li><a href="vorstellungen.html">Unsere Arbeitsgruppe stellt sich vor</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>    
+            </div>
+            
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+</html>
